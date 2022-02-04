@@ -24,6 +24,7 @@ client.on('messageCreate', message => {
 			message.channel.send(process.env.FLAG);
 		}else if(message.content == '^file'){
 			message.channel.send({files: ['./challenge.wav']});
+			message.channel.send('This file holds some text that I can read as commands. No need for any command indicator. Just send me a string you find and I will see what I can do');
 		}else if(Math.random()>0.95){
 			message.channel.send(responses[~~(Math.random()*responses.length)]);
 		}
