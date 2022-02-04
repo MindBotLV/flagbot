@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "main package file",
+  "main": "flagbot.js",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "gyp": "^0.3.0",
+    "uglify-js": "^3.15.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "mindbreak",
+  "license": "ISC",
+  "devDependencies": {
+    "ometajs": "^2.0.11"
+  }
+}
